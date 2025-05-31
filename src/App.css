@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+/* RTL Support */
+[dir="rtl"] .ms-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+[dir="rtl"] .me-auto {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+[dir="rtl"] .ms-1 {
+  margin-left: 0 !important;
+  margin-right: 0.25rem !important;
+}
+
+[dir="rtl"] .me-2 {
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+/* Original styles below */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
